@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+
+}
+
+nav img {
+    width: 65px;
+    padding: 5px;
+}
+
+
+
+nav div ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+
+
+
+}
+
+nav div ul li a {
+    display: block;
+    position: relative;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a::after {
+    content: ' ';
+    position: absolute;
+    bottom: -1px;
+    left: 50%;
+    width: 0;
+    height: 0.2rem;
+    background-color: #0B8CD5;
+    transition: all 300ms ease-in-out;
+}
+
+nav ul li a:hover::after {
+    width: 80%;
+    left: 15%;
+}
+
+nav h1 {
+    font-size: 30px;
+    color: white;
+    font-family: "Protest Strike", sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+
+}
+
+.div-one {
+    padding-top: 75px;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-one {
+    background-image: url(img/Main-BG.svg);
+}
+
+.div-quem {
+    margin: 10px 35px;
+
+}
+
+.quem {
+    font-size: 50px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.sobre-milena {
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+.milena-rindo {
+    margin-top: 100px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 75%;
+    height: 50%;
+}
+
+.section-two {
+    background-image: url(img/redes4.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.div-two {
+    max-width: 1200px;
+    min-height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.redes {
+    display: flex;
+    margin-top: 135px;
+    color: white;
+    padding-left: 60px;
+    font-size: 50px;
+    font-family: "Protest Strike", sans-serif;
+
+}
+
+.sobre-redes {
+    color: white;
+}
+
+.section-pacotes {
+    background-image: url(img/imgpacotes5.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+
+.pacotes {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Protest Strike", sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.div-pacotes {
+
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+
+
+.pacote-um,
+.pacote-dois,
+.pacote-tres {
+    margin: 10px 15px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+.button-pacote-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-one {
+    background: #0B8CD5;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bt-pacote-one {
+    font-size: 18px;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.h1-pacotesUm {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.info-um {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-pacote-two {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-two {
+    background: #0B8CD5;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bt-pacote-two {
+    font-size: 18px;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.h1-pacotesDois {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.info-dois {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button-pacote-three {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-three {
+    background: #0B8CD5;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.bt-pacote-three {
+    font-size: 18px;
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.h1-pacotesTres {
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 35px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.info-tres {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+@media (max-width:800px) {
+    .div-one {
+        flex-direction: column;
+    }
+
+    .milena-rindo {
+        margin: 0;
+    }
+
+    .redes {
+        text-align: center;
+        padding: 0;
+        margin: 0 10px 10px;
+    }
+    
+    .div-pacotes{
+        flex-direction: column;
+    }
+
+    .sobre-redes{
+        display: flex;
+        flex-direction: column;
+        text-align: center center;
+    }
+
+
+  .div-icon{
+        display: none;
+    }
+
+    .button-pacote-two, .button-pacote-one{
+        margin-bottom: 20px;
+    }
+  
+
+}
