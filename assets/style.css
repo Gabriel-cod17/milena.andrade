@@ -78,7 +78,7 @@ nav h1 {
 }
 
 .section-one {
-    background-image: url(img/teste4.svg);
+    background-image: url(img/teste3.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,11 +107,12 @@ nav h1 {
     margin-left: 10px;
     border-radius: 10px;
     width: 75%;
-    height: 50%;
+    height: 60%;
 }
 
 .section-two {
-    background-image: url(img/redesTeste.svg);
+    background-image: url(img/Fundoliso.svg);
+    background-color: black;
     background-position: center center;
     background-size: cover;
 
@@ -289,18 +290,7 @@ nav h1 {
     font-style: normal;
 }
 
-.contato{
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-}
 
-.fieldset{
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    font-size: 35px;
-}
 
 
 
