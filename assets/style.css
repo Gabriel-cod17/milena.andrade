@@ -48,7 +48,7 @@ nav ul li a::after {
     left: 50%;
     width: 0;
     height: 0.2rem;
-    background-color: #0B8CD5;
+    background-color: #55380b;
     transition: all 300ms ease-in-out;
 }
 
@@ -78,7 +78,7 @@ nav h1 {
 }
 
 .section-one {
-    background-image: url(img/teste3.svg);
+    background-image: url(img/fundo3liso.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,23 +95,29 @@ nav h1 {
 }
 
 .sobre-milena {
-    font-size: 20px;
+    text-align:justify;
+    font-size: 18px;
     color: white;
     font-family: sans-serif;
 }
 
+.crescer{
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
 
+}
 
 .milena-rindo {
     margin-top: 100px;
     margin-left: 10px;
     border-radius: 10px;
-    width: 75%;
-    height: 60%;
+    width: 60%;
+    height: 55%;
 }
 
 .section-two {
-    background-image: url(img/Fundoliso.svg);
+    background-image: url(img/instagram.svg);
     background-color: black;
     background-position: center center;
     background-size: cover;
@@ -127,7 +133,9 @@ nav h1 {
 }
 
 .redes {
+    background-color: red;
     display: flex;
+    justify-content: center;
     margin-top: 135px;
     color: white;
     padding-left: 60px;
@@ -137,11 +145,13 @@ nav h1 {
 }
 
 .sobre-redes {
+    display: flex;
+    flex-direction: column;
     color: white;
 }
 
 .section-pacotes {
-    background-image: url(img/instagram.svg);
+    background-image: url(img/computador1.JPG);
     background-position: center center;
     background-size: cover;
 
