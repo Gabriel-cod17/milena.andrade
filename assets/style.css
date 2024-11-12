@@ -59,7 +59,7 @@ nav ul li a:hover::after {
 
 nav h1 {
     font-size: 30px;
-    color:white;
+    color: white;
     font-family: "Protest Strike", sans-serif;
     position: absolute;
     top: 15px;
@@ -78,7 +78,7 @@ nav h1 {
 }
 
 .section-one {
-    background-image: url(img/fundo3liso.svg);
+    background-image: url(img/FundoLiso2.svg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,13 +95,13 @@ nav h1 {
 }
 
 .sobre-milena {
-    text-align:justify;
+    text-align: justify;
     font-size: 18px;
     color: white;
     font-family: sans-serif;
 }
 
-.crescer{
+.crescer {
     font-size: 18px;
     color: white;
     font-family: sans-serif;
@@ -116,190 +116,82 @@ nav h1 {
     height: 55%;
 }
 
-.section-two {
-    background-image: url(img/instagram.svg);
-    background-color: black;
-    background-position: center center;
-    background-size: cover;
-
+.section-two{
+    background-image: url(/assets/img/4.svg);
+    background-position: center;
 }
-
-.div-two {
+.div-two{
     max-width: 1200px;
     min-height: 100vh;
-    display: flex;
     margin: 0 auto;
-    flex-direction: column;
 }
 
-.redes {
+.div-h1{
+    padding-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.importancia{
+    font-family: "Protest Strike", sans-serif;
+
+}
+
+.estar {
+    font-size: 18px;
+    font-family: "Lobster", serif;
+}
+
+
+.redes-h1{
+    margin-top: 75px;
     background-color: red;
-    display: flex;
-    justify-content: center;
-    margin-top: 135px;
-    color: white;
-    padding-left: 60px;
-    font-size: 50px;
-    font-family: "Protest Strike", sans-serif;
+    font-size: 25px;
+    text-align: center;
 
 }
 
-.sobre-redes {
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.section-pacotes {
-    background-image: url(img/computador1.JPG);
-    background-position: center center;
-    background-size: cover;
+.redes-dois {
+    margin-top: 15px;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
 
 }
 
-.pacotes {
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-family: "Protest Strike", sans-serif;
-    text-transform: uppercase;
-    font-size: 50px;
-}
-
-.div-pacotes {
-
+.div-three{
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
+}
+
+.pacotes{
+    margin: 10px;
     display: flex;
-    justify-content: space-around;
-
-
+    justify-content: space-between;
 
 }
 
-
-.pacote-um,
-.pacote-dois,
-.pacote-tres {
-    margin: 10px 15px;
-    border: 2px solid rgb(0, 0, 0);
-    border-radius: 10px;
-
-}
-
-.button-pacote-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.button-one {
-    background: #0B8CD5;
+.gerenciamento{
     border: 1px solid black;
-    border-radius: 5px;
+
 }
 
-.bt-pacote-one {
-    font-size: 18px;
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-}
-
-
-
-.h1-pacotesUm {
-    color: white;
+.gerenciamento h1 {
     text-align: center;
-    margin-top: 5px;
-    font-size: 35px;
+    font-size: 20px;
     font-family: "Protest Strike", sans-serif;
 }
 
-.info-um {
-    font-size: 18px;
-    color: rgb(255, 255, 255);
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.button-pacote-two {
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.button-two {
-    background: #0B8CD5;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.bt-pacote-two {
-    font-size: 18px;
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-}
-
-.h1-pacotesDois {
-    color: white;
+.gerenciamento h2{
+    
     text-align: center;
-    margin-top: 5px;
-    font-size: 35px;
-    font-family: "Protest Strike", sans-serif;
+    padding: 5px;
+    font-size: 30px;
 }
-
-.info-dois {
-    font-size: 18px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
-.button-pacote-three {
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.button-three {
-    background: #0B8CD5;
-    border: 1px solid black;
-    border-radius: 5px;
-}
-
-.bt-pacote-three {
-    font-size: 18px;
-    margin: 0 15px;
-    color: white;
-    text-decoration: none;
-}
-
-.h1-pacotesTres {
-    color: white;
-    text-align: center;
-    margin-top: 5px;
-    font-size: 35px;
-    font-family: "Protest Strike", sans-serif;
-}
-
-.info-tres {
-    font-size: 18px;
-    color: white;
-    font-family: sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 
 
 
@@ -309,12 +201,12 @@ nav h1 {
         flex-direction: column;
     }
 
-    .div-two{
+    .div-two {
         text-align: center;
     }
 
     .milena-rindo {
-      margin: 0 0 18px;
+        margin: 0 0 18px;
     }
 
     .redes {
@@ -322,28 +214,29 @@ nav h1 {
         padding: 0;
         margin: 15px 18px 10px;
     }
-    
-    .div-pacotes{
+
+    .div-pacotes {
         flex-direction: column;
     }
 
-    .sobre-redes{
+    .sobre-redes {
         display: flex;
         flex-direction: column;
         text-align: center center;
     }
 
 
-  .div-icon{
+    .div-icon {
         display: none;
     }
 
-    .button-pacote-two, .button-pacote-one{
+    .button-pacote-two,
+    .button-pacote-one {
         margin-bottom: 20px;
     }
-    
- 
-    
-  
+
+
+
+
 
 }
