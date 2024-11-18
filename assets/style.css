@@ -116,17 +116,18 @@ nav h1 {
     height: 55%;
 }
 
-.section-two{
+.section-two {
     background-image: url(/assets/img/4.svg);
     background-position: center;
 }
-.div-two{
+
+.div-two {
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
 }
 
-.div-h1{
+.div-h1 {
     padding-top: 65px;
     display: flex;
     flex-direction: column;
@@ -135,7 +136,7 @@ nav h1 {
 
 }
 
-.importancia{
+.importancia {
     font-family: "Protest Strike", sans-serif;
 
 }
@@ -146,7 +147,7 @@ nav h1 {
 }
 
 
-.redes-h1{
+.redes-h1 {
     margin-top: 75px;
     background-color: red;
     font-size: 25px;
@@ -162,20 +163,37 @@ nav h1 {
 
 }
 
-.div-three{
+.div-three {
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
 }
 
-.pacotes{
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
+.servicos-oferecidos{
+    padding-top: 65px;
+}
+
+.servicos-oferecidos h1{
+    font-size: 80px;
+    text-align: center;
+    font-family: "Protest Strike", sans-serif;
 
 }
 
-.gerenciamento{
+.frase-h3 h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Lobster", serif;
+
+}
+
+.pacotes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gerenciamento {
+    margin: 0 10px 50px;
     background-color: blue;
     border: 1px solid black;
 
@@ -187,12 +205,47 @@ nav h1 {
     font-family: "Protest Strike", sans-serif;
 }
 
-.gerenciamento h2{
-    background-color: red;
-    
-    text-align: center;
-    padding: 20px;
+.gerenciamento h2 {
     font-size: 28px;
+}
+
+.gerenciamento-dois {
+    margin: 0 10px 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.gerenciamento-dois h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.gerenciamento-dois h2 {
+    font-size: 28px;
+}
+
+.gerenciamento-tres {
+    margin: 0 10px 50px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.gerenciamento-tres h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Protest Strike", sans-serif;
+}
+
+.gerenciamento-tres h2 {
+    font-size: 28px;
+}
+
+.button-pacotes {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center center;
 }
 
 
