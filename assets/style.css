@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
 .nav {
@@ -169,18 +169,18 @@ nav h1 {
     margin: 0 auto;
 }
 
-.servicos-oferecidos{
+.servicos-oferecidos {
     padding-top: 65px;
 }
 
-.servicos-oferecidos h1{
+.servicos-oferecidos h1 {
     font-size: 80px;
     text-align: center;
     font-family: "Protest Strike", sans-serif;
 
 }
 
-.frase-h3 h3{
+.frase-h3 h3 {
     font-size: 20px;
     text-align: center;
     font-family: "Lobster", serif;
@@ -189,28 +189,34 @@ nav h1 {
 
 .pacotes {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: initial;
 }
 
 .gerenciamento {
-    margin: 0 10px 50px;
+    margin: 0 10px;
+    padding: 30px;
     background-color: blue;
     border: 1px solid black;
 
 }
 
 .gerenciamento h1 {
+    content: normal;
     text-align: center;
     font-size: 20px;
     font-family: "Protest Strike", sans-serif;
 }
 
 .gerenciamento h2 {
-    font-size: 28px;
+    line-height: 28px;
+    padding: 10px;
+    font-size: 22px;
 }
 
 .gerenciamento-dois {
-    margin: 0 10px 50px;
+    margin: 0 10px;
+    padding: 30px;
     background-color: red;
     border: 1px solid black;
 }
@@ -222,11 +228,13 @@ nav h1 {
 }
 
 .gerenciamento-dois h2 {
-    font-size: 28px;
+    line-height: 28px;
+    font-size: 22px;
 }
 
 .gerenciamento-tres {
-    margin: 0 10px 50px;
+    margin: 0 10px;
+    padding: 30px;
     background-color: red;
     border: 1px solid black;
 }
@@ -238,11 +246,14 @@ nav h1 {
 }
 
 .gerenciamento-tres h2 {
-    font-size: 28px;
+    line-height: 28px;
+    font-size: 22px;
 }
 
-.button-pacotes {
-    margin-top: 55px;
+.button-pone,
+.button-ptwo,
+.button-pthree {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center center;
@@ -260,6 +271,12 @@ nav h1 {
         text-align: center;
     }
 
+    .pacotes{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
     .milena-rindo {
         margin: 0 0 18px;
     }
@@ -273,7 +290,9 @@ nav h1 {
     .div-pacotes {
         flex-direction: column;
     }
-
+    .gerenciamento h2 {
+       padding: 0;
+    }
     .sobre-redes {
         display: flex;
         flex-direction: column;
