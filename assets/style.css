@@ -114,8 +114,9 @@ nav h1 {
 }
 
 .section-two {
-    background-image: url(/assets/img/4.svg);
-    background-position: center;
+    background-image: url(/assets/img/fundo\ brnco.png);
+    background-position: cover;
+    background-repeat:repeat-y;
 }
 
 .div-two {
@@ -140,24 +141,31 @@ nav h1 {
 }
 
 .estar {
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Lobster", serif;
 }
 
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
+.container img{
+    display: flex;
+    width: 30%;
+    height: 30%;
+
+}
+
+
 
 .redes-h1 {
-    width: 60%;
-    text-align: left;
+    text-align: justify;
     padding: 30px;
     margin-top: 5px;
-    background-color: red;
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 1.5px;
     line-height: 32.5px;
     word-spacing: 2.5px;
@@ -165,14 +173,13 @@ nav h1 {
 
 }
 
-.redes-dois {
+/* .redes-dois {
     letter-spacing: 1.5;
     width: 60%;
-    background-color: blue;
     font-size: 20px;
     text-align: center;
 
-}
+} */
 
 .div-three {
     max-width: 1200px;
