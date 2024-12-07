@@ -46,6 +46,7 @@ nav div ul li a {
 
 }
 
+
 nav ul li:hover {
     cursor: pointer;
     opacity: 0.8;
@@ -61,8 +62,6 @@ nav h1 {
     left: 65px;
 
 }
-
-
 
 .div-one {
     padding-top: 75px;
@@ -173,13 +172,6 @@ nav h1 {
 
 }
 
-/* .redes-dois {
-    letter-spacing: 1.5;
-    width: 60%;
-    font-size: 20px;
-    text-align: center;
-
-} */
 
 .div-three {
     max-width: 1200px;
@@ -328,37 +320,14 @@ nav h1 {
 
 
 @media (max-width:800px) {
-
-
-
+    
     .div-one {
         flex-direction: column;
 
 
     }
-
-    .div-two {
-        text-align: center;
-    }
-
-    .pacotes {
-        flex-direction: column;
-        padding: 0;
-        margin: 0;
-    }
-
     .milena-rindo {
         margin: 0 0 18px;
-    }
-
-    .redes {
-        text-align: center;
-        padding: 0;
-        margin: 15px 18px 10px;
-    }
-
-    .div-pacotes {
-        flex-direction: column;
     }
 
     .gerenciamento h2 {
@@ -372,13 +341,29 @@ nav h1 {
     }
 
 
-    .div-icon {
-        display: none;
+    .container-dois{
+        display: flex;
+        flex-direction:column ;
     }
 
-    .button-pacote-two,
-    .button-pacote-one {
-        margin-bottom: 20px;
+    .gerenciamento{
+        width: auto;
     }
+    .gerenciamento-dois{
+        width: auto;
+    }
+
+    .gerenciamento-tres{
+        width: auto;
+    }
+
+    .redes {
+        text-align: center;
+        padding: 0;
+        margin: 15px 18px 10px;
+    }
+
+   
+   
 
 }
