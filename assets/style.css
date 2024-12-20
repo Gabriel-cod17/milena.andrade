@@ -63,16 +63,6 @@ nav h1 {
 
 }
 
-.div-one {
-    padding-top: 75px;
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-}
-
 .section-one {
     background-image: url(img/FundoLiso2.svg);
     background-position: center center;
@@ -80,12 +70,23 @@ nav h1 {
     background-repeat: no-repeat;
 }
 
-.div-quem {
-    margin: 10px 35px;
-
+.div-one {
+    text-align: center;
+    display: flex;
+    padding-top: 75px;
+    max-width: 1200px;
+    min-height: 100vh;
+    margin: 0 auto;
 }
 
-.quem {
+.div-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.quem-milena {
     font-size: 50px;
     font-family: "Protest Strike", sans-serif;
 }
@@ -95,27 +96,44 @@ nav h1 {
     font-size: 18px;
     color: white;
     font-family: sans-serif;
+    margin-bottom: 0;
 }
 
-.crescer {
+.sobre-info {
+    text-align: justify;
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.apaixonada {
     font-size: 18px;
     color: white;
     font-family: sans-serif;
 
 }
 
+.milena-foto {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 30%;
+
+
+}
+
 .milena-rindo {
-    margin-top: 100px;
-    margin-left: 10px;
     border-radius: 10px;
-    width: 60%;
-    height: 55%;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+
 }
 
 .section-two {
     background-image: url(assets/img/fundo\ brnco.png);
     background-position: cover;
-    background-repeat:repeat-y;
+    background-repeat: repeat-y;
 }
 
 .div-two {
@@ -151,7 +169,7 @@ nav h1 {
     align-items: center;
 }
 
-.container img{
+.container img {
     display: flex;
     width: 30%;
     height: 30%;
@@ -333,44 +351,5 @@ nav h1 {
 
 
     }
-    .milena-rindo {
-        margin: 0 0 18px;
-    }
-
-    .gerenciamento h2 {
-        padding: 0;
-    }
-
-    .sobre-redes {
-        display: flex;
-        flex-direction: column;
-        text-align: center center;
-    }
-
-
-    .container-dois{
-        display: flex;
-        flex-direction:column ;
-    }
-
-    .gerenciamento{
-        width: auto;
-    }
-    .gerenciamento-dois{
-        width: auto;
-    }
-
-    .gerenciamento-tres{
-        width: auto;
-    }
-
-    .redes {
-        text-align: center;
-        padding: 0;
-        margin: 15px 18px 10px;
-    }
-
-   
-   
 
 }
