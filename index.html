@@ -21,21 +21,34 @@
 
 <body>
 
-    <nav>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="assets/img/LOGO MI 01.png" alt="Logo milena Andrade">
+                <h1>Milena Andrade</h1>
+            </div>
 
-        <div class="nav">
-            <img src="assets/img/LOGO MI 01.png" alt="Logo Milena Andrade">
-            <a href="#section-one">
-                <h1 class="milena">Milena Andrade</h1>
-            </a>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#section-one" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#section-two" class="nav-link">Meio</a></li>
+                    <li class="nav-item"><a href="#section-three" class="nav-link">Fim</a></li>
+                </ul>
+            </div>
 
-            <ul class="links">
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
 
-                <li><a href="#section-one">sobre</a></li>
-                <li><a href="#section-two">redes</a></li>
-                <li><a href="#section-three">pacotes</a></li>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#section-one" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#section-two" class="nav-link">Meio</a></li>
+                <li class="nav-item"><a href="#section-three" class="nav-link">Fim</a></li>
             </ul>
-    </nav>
+        </div>
+    </header>
 
     <section id="section-one" class="section-one">
         <div class="div-one">
@@ -47,7 +60,7 @@
                     que cada negócio tem uma história única para contar, e meu trabalho é ajudar você a compartilhar
                     essa história da maneira mais autêntica e envolvente, com uma abordagem humanizada e estratégica,
                     vou te guiar para conquistar resultados reais nas redes sociais.</p>
-                    <p class="apaixonada">Apaixonada por contar histórias e transformar marcas!</p>
+                <p class="apaixonada">Apaixonada por contar histórias e transformar marcas!</p>
             </div>
 
 
@@ -97,21 +110,8 @@
             <div class="container-dois">
                 <div class="gerenciamento">
                     <h1> 1. Gerenciamento de Redes Sociais </h1>
-                    <h2>Transforme suas redes sociais com uma gestão completa:
-                        <br>
-                        <br>
-                        <ul>
-                            <li>
-                                Criação de conteúdo
-                            </li>
-                            <li>
-                                Interações com
-                                seguidores
-                            </li>
-                            <li>
-                                Análise de métricas para crescimento constante
-                            </li>
-                        </ul>
+                    <h2>Transforme suas redes sociais com uma gestão completa: criação de conteúdo, interações com
+                        seguidores, e análise de métricas para crescimento constante.
                         <h5>
                             Deixe que eu cuido de tudo para
                             você ter mais tempo para focar no seu negócio! 🚀
@@ -124,12 +124,10 @@
                 <div class="gerenciamento-dois">
                     <h1>2. Análise e Estruturação de Perfil</h1>
                     <h2>Um perfil organizado é essencial para atrair e reter seguidores.
-                        <ul>
-                            <li>Analisamos</li>
-                        </ul>
-                        <li>estruturamos</li>
-                        <li> deixamos o seu perfil visualmente atrativo e coerente com a sua marca</li>
                     </h2>
+                    <h5>Analisamos, estruturamos e deixamos o seu perfil visualmente atrativo e coerente com a sua
+                        marca.
+                    </h5>
 
                     <div class="button-ptwo">
                         <button type="submit">Entrar em contato</button>
@@ -138,24 +136,15 @@
                 <div class="gerenciamento-tres">
                     <h1>3. Estratégia de Conteúdo para Você Gerir Seu Perfil</h1>
                     <h2>Quer cuidar do próprio perfil, mas precisa de um plano? Criamos uma estratégia de conteúdo sob
-                        medida para você com:
-                        <br>
-                        <br>
-                        <ul>
-                            <li>
-                                ideias
-                            </li>
-                            <li>
-                                calendário de postagens
-                            </li>
-                            <li>dicas de engajamento</li>
-                        </ul>
-
+                        medida para você, com ideias, calendário de postagens e dicas de engajamento.
                     </h2>
                     <div class="button-pthree">
                         <button type="submit">Entrar em contato</button>
                     </div>
                 </div>
+            </div>
+            <div class="frase-container-dois">
+                <h1>Vem e descubra como transformar suas redes sociais em verdadeiras aliadas do seu negócio!</h1>
             </div>
         </div>
     </section>
@@ -182,6 +171,8 @@
         </div>
 
     </footer>
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 
