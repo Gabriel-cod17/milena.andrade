@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+@font-face {
+    font-family: defante ;
+    src: url(/assets/fonts/Defante/Defante.ttf);
+}
 
 header {
     background-color: black;
@@ -30,6 +34,7 @@ header {
     color: white;
     font-size: 25px;
     padding-left: 5px;
+    font-family: "defante";
 }
 
 .nav-list {
@@ -87,7 +92,7 @@ header {
 .quem-milena {
     font-size: 50px;
     padding-bottom: 10px;
-    font-family: "Protest Strike", sans-serif;
+    font-family: "defante";
 }
 
 .sobre-milena {
