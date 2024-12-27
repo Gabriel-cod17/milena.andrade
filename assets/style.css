@@ -28,6 +28,9 @@
 header {
     background-color: #72451c;
     box-shadow: 0px 3px 10px #55380b;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-bar {
@@ -91,6 +94,7 @@ header {
 
 .div-one {
     text-align: center;
+    align-items: center;
     display: flex;
     padding-top: 75px;
     max-width: 1200px;
@@ -124,6 +128,10 @@ header {
     font-family: "AconchegoTest-ExtraLight";
     margin-bottom: 0;
 
+}
+
+.sol {
+    color: yellow
 }
 
 .span-s-milena {
@@ -191,6 +199,9 @@ header {
 }
 
 .div-two {
+    padding-top: 70px;
+    text-align: center;
+    align-items: center;
     max-width: 1200px;
     min-height: 100vh;
     margin: 0 auto;
@@ -264,8 +275,30 @@ header {
     color: #fdf9f0;
 }
 
+.estrategia {
+    font-family: "AconchegoTest-Black";
+    color: #fdf9f0;
+}
+
+.estrategia .crescimento {
+    display: inline;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.section-three {
+    background-image: url(img/servicos.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 .div-three {
+    padding-top: 70px;
+    text-align: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     max-width: 1200px;
@@ -280,15 +313,13 @@ header {
 .servicos-oferecidos h1 {
     font-size: 80px;
     text-align: center;
-    font-family: "Protest Strike", sans-serif;
+    font-family: "Defante";
+    color: #fdf9f0;
 
 }
 
-.frase-h3 h3 {
-    font-size: 20px;
-    text-align: center;
-    font-family: "Lobster", serif;
-
+.servicos-h1 {
+    color: #bf863f;
 }
 
 .container-dois {
@@ -297,14 +328,17 @@ header {
 }
 
 .gerenciamento {
+    background-image: url(img/gerenciamento.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 70%;
-    margin: 0 10px 10px;
+    margin: 0 10px;
     padding: 30px;
-    background-color: blue;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 8px;
 
 }
@@ -312,69 +346,120 @@ header {
 .gerenciamento h1 {
     content: normal;
     text-align: center;
-    font-size: 28px;
-    font-family: "Protest Strike", sans-serif;
+    font-size: 33px;
+    font-family: "Defante";
+    color: #fdf9f0;
 }
 
 .gerenciamento h2 {
-    line-height: 30px;
-    letter-spacing: 1.5px;
-    word-spacing: 2px;
-    line-height: 28px;
     font-size: 22px;
+    text-align: left;
+    font-family: "AconchegoTest-ExtraLight";
+    color: #fdf9f0;
+}
+.gestao{
+    font-family: "AconchegoTest-Black";
+    color: #fdf9f0;
+}
+
+.gerenciamento h5 {
+    margin-top: 15px;
+    font-family: "AconchegoTest-Black";
+    color: #fdf9f0;
+    font-size: 18px;
 }
 
 .gerenciamento-dois {
+    background-image: url(img/gereciamentoDois.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 70%;
-    margin: 0 10px 10px;
+    margin: 0 10px;
     padding: 30px;
-    background-color: red;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 8px;
 }
 
 .gerenciamento-dois h1 {
     text-align: center;
-    font-size: 28px;
-    font-family: "Protest Strike", sans-serif;
+    font-size: 33px;
+    font-family: "Defante";
+    color: #fdf9f0;
 }
 
 .gerenciamento-dois h2 {
-
-    line-height: 30px;
-    letter-spacing: 1.5px;
-    word-spacing: 2px;
-    padding: 15px 10px 0px;
     font-size: 22px;
+    text-align:start;
+    font-family: "AconchegoTest-ExtraLight";
+    color: #fdf9f0;
+}
+
+.perfil{
+    font-family: "AconchegoTest-Black";
+    color: #fdf9f0;
+}
+
+.gerenciamento-dois h5 {
+    font-size: 22px;
+    font-family: "AconchegoTest-ExtraLight";
+    color: #fdf9f0;
+    text-align: left;
 }
 
 .gerenciamento-tres {
+    background-image: url(img/gerenciamentoTres.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 60%;
-    margin: 0 10px 10px;
+    margin: 0 10px;
     padding: 30px;
-    background-color: red;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 8px;
 }
 
 .gerenciamento-tres h1 {
     text-align: center;
-    font-size: 28px;
-    font-family: "Protest Strike", sans-serif;
+    font-size: 33px;
+    font-family: "Defante";
+    color: #fdf9f0;
 
 }
 
 .gerenciamento-tres h2 {
-    line-height: 30px;
-    letter-spacing: 1.5px;
-    word-spacing: 2px;
     font-size: 22px;
+    text-align:left;
+    font-family: "AconchegoTest-ExtraLight";
+    color: #fdf9f0;
+}
+
+.estra-conteudo{
+    font-family: "AconchegoTest-Black";
+    color: #fdf9f0;
+}
+
+
+.frase-container-dois {
+    display: flex;
+    justify-content: center;
+}
+
+.frase-container-dois h1 {
+    font-size: 25px;
+    padding: 50px;
+    font-family: "CraftyGirls";
+    color: #fdf9f0;
+}
+
+.aliados{
+    text-decoration: underline;
 }
 
 .button-pone,
@@ -414,18 +499,19 @@ header {
 
 }
 
-.frase-container-dois {
-    display: flex;
-    justify-content: center;
+.footer{
+    background-color: #72451c;
+    border: 1px solid #fdf9f0;
 }
 
-.frase-container-dois h1 {
-    font-size: 25px;
-    padding: 50px;
+.logo-footer{
+    align-self: start;
 }
 
-
-
+.logo-footer img{
+    width: 80px;
+    height: 80px;
+}
 
 
 @media (max-width:800px) {
