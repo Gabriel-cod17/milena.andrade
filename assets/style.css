@@ -51,7 +51,7 @@ header {
 
 .logo h1 {
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     padding-left: 5px;
     font-family: "Defante";
 }
@@ -65,6 +65,11 @@ header {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+.nav-list ul li a{
+    font-family: "Defante";
+    font-size: 20px;
 }
 
 .nav-item {
@@ -357,7 +362,8 @@ header {
     font-family: "AconchegoTest-ExtraLight";
     color: #fdf9f0;
 }
-.gestao{
+
+.gestao {
     font-family: "AconchegoTest-Black";
     color: #fdf9f0;
 }
@@ -367,6 +373,7 @@ header {
     font-family: "AconchegoTest-Black";
     color: #fdf9f0;
     font-size: 18px;
+    letter-spacing: 1px;
 }
 
 .gerenciamento-dois {
@@ -393,12 +400,12 @@ header {
 
 .gerenciamento-dois h2 {
     font-size: 22px;
-    text-align:start;
+    text-align: start;
     font-family: "AconchegoTest-ExtraLight";
     color: #fdf9f0;
 }
 
-.perfil{
+.perfil {
     font-family: "AconchegoTest-Black";
     color: #fdf9f0;
 }
@@ -435,12 +442,12 @@ header {
 
 .gerenciamento-tres h2 {
     font-size: 22px;
-    text-align:left;
+    text-align: left;
     font-family: "AconchegoTest-ExtraLight";
     color: #fdf9f0;
 }
 
-.estra-conteudo{
+.estra-conteudo {
     font-family: "AconchegoTest-Black";
     color: #fdf9f0;
 }
@@ -458,7 +465,7 @@ header {
     color: #fdf9f0;
 }
 
-.aliados{
+.aliados {
     text-decoration: underline;
 }
 
@@ -473,45 +480,49 @@ header {
 }
 
 .button-pone button {
-    background-color: #55380b;
-    color: black;
+    background-color: #bf863f;
+    color: #fdf9f0;
     padding: 5px 5px;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 18px;
+    font-family: "Defante";
+    font-size: 18px;
 
 }
 
 .button-ptwo button {
-    background-color: #55380b;
-    color: black;
+    background-color: #bf863f;
+    color: #fdf9f0;
     padding: 5px 5px;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 18px;
+    font-family: "Defante";
+    font-size: 18px;
 
 }
 
 .button-pthree button {
-    background-color: #55380b;
-    color: black;
+    background-color: #bf863f;
+    color: #fdf9f0;
     padding: 5px 5px;
-    border: 1px solid black;
+    border: 1px solid #fdf9f0;
     border-radius: 18px;
-
+    font-family: "Defante";
+    font-size: 18px;
 }
 
-.footer{
+.footer {
     background-color: #72451c;
     border: 1px solid #fdf9f0;
 }
 
-.logo-footer{
-    align-self: start;
+.milena-andrade {
+    color: #fdf9f0;
+    font-family: "Defante";
+    font-size: 18px;
 }
 
-.logo-footer img{
-    width: 80px;
-    height: 80px;
-}
+
 
 
 @media (max-width:800px) {
