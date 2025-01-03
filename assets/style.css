@@ -36,7 +36,8 @@ header {
 .nav-bar {
     display: flex;
     justify-content: space-between;
-    padding: 8px 10px;
+    align-items: center;
+    padding: 5px 5px;
 }
 
 .logo {
@@ -45,15 +46,18 @@ header {
 }
 
 .logo img {
-    width: 55px;
-    height: 55px;
+    width: 75px;
+    height: 75px;
 }
 
 .logo h1 {
     color: white;
     font-size: 26px;
-    padding-left: 5px;
     font-family: "Defante";
+}
+
+.andrade{
+    color: #bf863f;
 }
 
 .nav-list {
@@ -525,12 +529,9 @@ header {
 
 
 
-@media (max-width:800px) {
+@media (max-width:850px) {
 
-    .nav-bar {
-        padding: 24px 64px;
-    }
-
+ 
     .nav-item {
         display: none;
     }
@@ -550,7 +551,9 @@ header {
         display: flex;
         flex-direction: column;
         text-align: center;
+        align-items: center;
         padding-bottom: 16px;
+        padding-left: 0;
     }
 
     .mobile-menu .nav-item {
@@ -575,6 +578,16 @@ header {
 
     }
 
+    .milena-foto{
+        justify-content: center;
+        width: auto;
+        padding-bottom: 10px;
+    }
+
+    .milena-rindo{
+        width: 50%;
+    }
+
     .container-dois {
         flex-direction: column;
         align-items: center;
@@ -582,14 +595,18 @@ header {
 
     .gerenciamento {
         width: 90%;
+        margin-bottom: 20px;
     }
 
     .gerenciamento-dois {
         width: 90%;
+        margin-bottom: 20px;
     }
 
     .gerenciamento-tres {
         width: 90%;
+        margin-bottom: 20px;
     }
 
 }
+
