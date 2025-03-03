@@ -608,5 +608,15 @@ header {
         margin-bottom: 20px;
     }
 
+    .redes-h1{
+        letter-spacing: inherit;
+        word-spacing: inherit;
+        text-align: left;
+        padding: 0;
+    }
+    .sobre-info{
+        text-align: left;
+    }
+
 }
 
