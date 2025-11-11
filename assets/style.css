@@ -1,622 +1,623 @@
+/* configuração global */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
+/* Todas as fontes family que foi selecionado */
+
+@font-face {
+  font-family: "Defante";
+  src: url(fonts/Defante/Defante.ttf);
 }
 
 @font-face {
-    font-family: "Defante";
-    src: url(fonts/Defante/Defante.ttf);
+  font-family: "AconchegoTest-ExtraLight";
+  src: url(fonts/Aconchego/AconchegoTest-ExtraLight-BF6736a513dfc57.ttf);
 }
 
 @font-face {
-    font-family: "AconchegoTest-ExtraLight";
-    src: url(fonts/Aconchego/AconchegoTest-ExtraLight-BF6736a513dfc57.ttf)
+  font-family: "AconchegoTest-Black";
+  src: url(fonts/Aconchego/AconchegoTest-Black-BF6736a5124cfa7.ttf);
 }
 
 @font-face {
-    font-family: "AconchegoTest-Black";
-    src: url(fonts/Aconchego/AconchegoTest-Black-BF6736a5124cfa7.ttf);
+  font-family: "CraftyGirls";
+  src: url(fonts/Crafty/CraftyGirls-Regular.ttf);
 }
 
-@font-face {
-    font-family: "CraftyGirls";
-    src: url(fonts/Crafty/CraftyGirls-Regular.ttf);
-}
+/* CONFIGURAÇÃO DO HEADER(CABEÇALHO), DA LOGO E DO MENU DE NAVEGAÇÃO */
 
 header {
-    background-color: #72451c;
-    box-shadow: 0px 3px 10px #55380b;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  background-color: #72451c;
+  box-shadow: 0px 3px 10px #55380b;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-    width: 75px;
-    height: 75px;
+  width: 75px;
+  height: 75px;
 }
 
 .logo h1 {
-    color: white;
-    font-size: 26px;
-    font-family: "Defante";
+  color: white;
+  font-size: 26px;
+  font-family: "Defante";
 }
 
-.andrade{
-    color: #bf863f;
+.andrade {
+  color: #bf863f;
 }
 
 .nav-list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
 }
 
-.nav-list ul li a{
-    font-family: "Defante";
-    font-size: 20px;
+.nav-list ul li a {
+  font-family: "Defante";
+  font-size: 20px;
 }
 
 .nav-item {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .nav-item a {
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
 }
 
+/* CONFIGURAÇÃO DO MENU MOBILE */
+
 .mobile-menu-icon {
-    display: none;
+  display: none;
 }
 
 .mobile-menu {
-    display: none;
+  display: none;
 }
 
+/* CONFIGURAÇÃO DA SESSÃO UM */
+
 .section-one {
-    background-image: url(img/quem-milena.jpeg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(img/quem-milena.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .div-one {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    padding-top: 75px;
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding-top: 75px;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
 .div-info {
-    letter-spacing: -1px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 60%;
+  letter-spacing: -1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
 }
 
 .quem-milena {
-    color: #72451c;
-    font-size: 80px;
-    padding-bottom: 10px;
-    font-family: "Defante";
+  color: #72451c;
+  font-size: 80px;
+  padding-bottom: 10px;
+  font-family: "Defante";
 }
 
 .span-q-milena {
-    color: #bf863f;
+  color: #bf863f;
 }
 
 .sobre-milena {
-    text-align: justify;
-    font-size: 24px;
-    color: #72451c;
-    font-family: "AconchegoTest-ExtraLight";
-    margin-bottom: 0;
-
+  text-align: justify;
+  font-size: 24px;
+  color: #72451c;
+  font-family: "AconchegoTest-ExtraLight";
+  margin-bottom: 0;
 }
 
 .sol {
-    color: yellow
+  color: yellow;
 }
 
 .span-s-milena {
-    font-size: 24px;
-    font-family: "AconchegoTest-Black";
-    color: #72451c;
+  font-size: 24px;
+  font-family: "AconchegoTest-Black";
+  color: #72451c;
 }
 
 .sobre-info {
-    letter-spacing: -1px;
-    text-align: justify;
-    font-size: 24px;
-    color: #72451c;
-    font-family: "AconchegoTest-ExtraLight";
+  letter-spacing: -1px;
+  text-align: justify;
+  font-size: 24px;
+  color: #72451c;
+  font-family: "AconchegoTest-ExtraLight";
 }
 
 .acredito {
-    font-size: 24px;
-    font-family: "AconchegoTest-Black";
-    color: #72451c;
+  font-size: 24px;
+  font-family: "AconchegoTest-Black";
+  color: #72451c;
 }
 
 .autentica {
-    font-size: 24px;
-    font-family: "AconchegoTest-Black";
-    color: #72451c;
+  font-size: 24px;
+  font-family: "AconchegoTest-Black";
+  color: #72451c;
 }
 
 .abordagem {
-    font-size: 24px;
-    font-family: "AconchegoTest-Black";
-    color: #72451c;
+  font-size: 24px;
+  font-family: "AconchegoTest-Black";
+  color: #72451c;
 }
 
 .apaixonada {
-    text-decoration: underline;
-    font-size: 20px;
-    color: #72451c;
-    font-family: "CraftyGirls";
-
+  text-decoration: underline;
+  font-size: 20px;
+  color: #72451c;
+  font-family: "CraftyGirls";
 }
 
 .milena-foto {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    width: 30%;
-
-
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 30%;
 }
 
 .milena-rindo {
-    border-radius: 40px;
-    width: 90%;
-    height: auto;
-    object-fit: contain;
-
+  border-radius: 40px;
+  width: 90%;
+  height: auto;
+  object-fit: contain;
 }
 
+/* CONFIGURAÇÃO DA SESSÃO DOIS, */
+
 .section-two {
-    background-image: url(img/section-two.jpeg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+  background-image: url(img/section-two.jpeg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .div-two {
-    padding-top: 70px;
-    text-align: center;
-    align-items: center;
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+  align-items: center;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
 .div-h1 {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .importancia {
-    color: #fdf9f0;
-    font-size: 65px;
-    font-family: "Defante";
+  color: #fdf9f0;
+  font-size: 65px;
+  font-family: "Defante";
 }
 
 .d {
-    color: #72451c;
+  color: #72451c;
 }
 
 .estar {
-    color: #35322d;
-    font-size: 18px;
-    font-family: "CraftyGirls";
+  color: #35322d;
+  font-size: 18px;
+  font-family: "CraftyGirls";
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container img {
-    display: flex;
-    width: 30%;
-    height: 30%;
-
+  display: flex;
+  width: 30%;
+  height: 30%;
 }
 
-
-
 .redes-h1 {
-    color: #fdf9f0;
-    font-family: "AconchegoTest-ExtraLight";
-    text-align: justify;
-    padding: 30px;
-    margin-top: 5px;
-    font-size: 20px;
-    letter-spacing: 1.5px;
-    line-height: 32.5px;
-    word-spacing: 2.5px;
+  color: #fdf9f0;
+  font-family: "AconchegoTest-ExtraLight";
+  text-align: justify;
+  padding: 30px;
+  margin-top: 5px;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 32.5px;
+  word-spacing: 2.5px;
 }
 
 .conectar {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .fortalecer {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .vendas {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .estrategia {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .estrategia .crescimento {
-    display: inline;
-    padding-left: 5px;
-    width: 30px;
-    height: 30px;
+  display: inline;
+  padding-left: 5px;
+  width: 30px;
+  height: 30px;
 }
+
+/* CONFIGURAÇÃO DA SESSÃO TRÊS */
 
 .section-three {
-    background-image: url(img/servicos.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(img/servicos.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
 .div-three {
-    padding-top: 70px;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    max-width: 1200px;
-    min-height: 100vh;
-    margin: 0 auto;
+  padding-top: 70px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
 .servicos-oferecidos {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .servicos-oferecidos h1 {
-    font-size: 80px;
-    text-align: center;
-    font-family: "Defante";
-    color: #fdf9f0;
-
+  font-size: 80px;
+  text-align: center;
+  font-family: "Defante";
+  color: #fdf9f0;
 }
 
 .servicos-h1 {
-    color: #bf863f;
+  color: #bf863f;
 }
 
 .container-dois {
-    display: flex;
-
+  display: flex;
 }
 
-.gerenciamento {
-    background-image: url(img/gerenciamento.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 70%;
-    margin: 0 10px;
-    padding: 30px;
-    border: 1px solid #fdf9f0;
-    border-radius: 8px;
+/* CONFIGURAÇÃO DO GERENCIAMENTO UM DA SESSÃO TRÊS */
 
+.gerenciamento {
+  background-image: url(img/gerenciamento.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 10px;
+  padding: 30px;
+  border: 1px solid #fdf9f0;
+  border-radius: 8px;
 }
 
 .gerenciamento h1 {
-    content: normal;
-    text-align: center;
-    font-size: 33px;
-    font-family: "Defante";
-    color: #fdf9f0;
+  content: normal;
+  text-align: center;
+  font-size: 33px;
+  font-family: "Defante";
+  color: #fdf9f0;
 }
 
 .gerenciamento h2 {
-    font-size: 22px;
-    text-align: left;
-    font-family: "AconchegoTest-ExtraLight";
-    color: #fdf9f0;
+  font-size: 22px;
+  text-align: left;
+  font-family: "AconchegoTest-ExtraLight";
+  color: #fdf9f0;
 }
 
 .gestao {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .gerenciamento h5 {
-    margin-top: 15px;
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
-    font-size: 18px;
-    letter-spacing: 1px;
+  margin-top: 15px;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 
+/* CONFIGURAÇÃO DO GERENCIAMENTO DOIS DA SESSÃO TRÊS */
+
 .gerenciamento-dois {
-    background-image: url(img/gereciamentoDois.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 70%;
-    margin: 0 10px;
-    padding: 30px;
-    border: 1px solid #fdf9f0;
-    border-radius: 8px;
+  background-image: url(img/gereciamentoDois.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 10px;
+  padding: 30px;
+  border: 1px solid #fdf9f0;
+  border-radius: 8px;
 }
 
 .gerenciamento-dois h1 {
-    text-align: center;
-    font-size: 33px;
-    font-family: "Defante";
-    color: #fdf9f0;
+  text-align: center;
+  font-size: 33px;
+  font-family: "Defante";
+  color: #fdf9f0;
 }
 
 .gerenciamento-dois h2 {
-    font-size: 22px;
-    text-align: start;
-    font-family: "AconchegoTest-ExtraLight";
-    color: #fdf9f0;
+  font-size: 22px;
+  text-align: start;
+  font-family: "AconchegoTest-ExtraLight";
+  color: #fdf9f0;
 }
 
 .perfil {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
 .gerenciamento-dois h5 {
-    font-size: 22px;
-    font-family: "AconchegoTest-ExtraLight";
-    color: #fdf9f0;
-    text-align: left;
+  font-size: 22px;
+  font-family: "AconchegoTest-ExtraLight";
+  color: #fdf9f0;
+  text-align: left;
 }
 
+/* CONFIGURAÇÃO DO GERENCIAMENTO TRÊS DA SESSÃO TRÊS */
+
 .gerenciamento-tres {
-    background-image: url(img/gerenciamentoTres.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 60%;
-    margin: 0 10px;
-    padding: 30px;
-    border: 1px solid #fdf9f0;
-    border-radius: 8px;
+  background-image: url(img/gerenciamentoTres.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 60%;
+  margin: 0 10px;
+  padding: 30px;
+  border: 1px solid #fdf9f0;
+  border-radius: 8px;
 }
 
 .gerenciamento-tres h1 {
-    text-align: center;
-    font-size: 33px;
-    font-family: "Defante";
-    color: #fdf9f0;
-
+  text-align: center;
+  font-size: 33px;
+  font-family: "Defante";
+  color: #fdf9f0;
 }
 
 .gerenciamento-tres h2 {
-    font-size: 22px;
-    text-align: left;
-    font-family: "AconchegoTest-ExtraLight";
-    color: #fdf9f0;
+  font-size: 22px;
+  text-align: left;
+  font-family: "AconchegoTest-ExtraLight";
+  color: #fdf9f0;
 }
 
 .estra-conteudo {
-    font-family: "AconchegoTest-Black";
-    color: #fdf9f0;
+  font-family: "AconchegoTest-Black";
+  color: #fdf9f0;
 }
 
-
 .frase-container-dois {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .frase-container-dois h1 {
-    font-size: 25px;
-    padding: 50px;
-    font-family: "CraftyGirls";
-    color: #fdf9f0;
+  font-size: 25px;
+  padding: 50px;
+  font-family: "CraftyGirls";
+  color: #fdf9f0;
 }
 
 .aliados {
-    text-decoration: underline;
+  text-decoration: underline;
 }
+
+/* CONFIGURAÇÃO DOS BOTÕES DA SESSAO TRÊS */
 
 .button-pone,
 .button-ptwo,
 .button-pthree {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .button-pone button {
-    background-color: #bf863f;
-    color: #fdf9f0;
-    padding: 5px 5px;
-    border: 1px solid #fdf9f0;
-    border-radius: 18px;
-    font-family: "Defante";
-    font-size: 18px;
-
+  background-color: #bf863f;
+  color: #fdf9f0;
+  padding: 5px 5px;
+  border: 1px solid #fdf9f0;
+  border-radius: 18px;
+  font-family: "Defante";
+  font-size: 18px;
 }
 
 .button-ptwo button {
-    background-color: #bf863f;
-    color: #fdf9f0;
-    padding: 5px 5px;
-    border: 1px solid #fdf9f0;
-    border-radius: 18px;
-    font-family: "Defante";
-    font-size: 18px;
-
+  background-color: #bf863f;
+  color: #fdf9f0;
+  padding: 5px 5px;
+  border: 1px solid #fdf9f0;
+  border-radius: 18px;
+  font-family: "Defante";
+  font-size: 18px;
 }
 
 .button-pthree button {
-    background-color: #bf863f;
-    color: #fdf9f0;
-    padding: 5px 5px;
-    border: 1px solid #fdf9f0;
-    border-radius: 18px;
-    font-family: "Defante";
-    font-size: 18px;
+  background-color: #bf863f;
+  color: #fdf9f0;
+  padding: 5px 5px;
+  border: 1px solid #fdf9f0;
+  border-radius: 18px;
+  font-family: "Defante";
+  font-size: 18px;
 }
 
 .footer {
-    background-color: #72451c;
-    border: 1px solid #fdf9f0;
+  background-color: #72451c;
+  border: 1px solid #fdf9f0;
 }
 
 .milena-andrade {
-    color: #fdf9f0;
-    font-family: "Defante";
-    font-size: 18px;
+  color: #fdf9f0;
+  font-family: "Defante";
+  font-size: 18px;
 }
 
+/* CONFIGURAÇÃO PARA CELULARES */
 
+@media (max-width: 850px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .nav-item {
+    display: none;
+  }
 
+  .mobile-menu-icon {
+    display: block;
+  }
 
-@media (max-width:850px) {
+  .mobile-menu-icon button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
 
- 
-    .nav-item {
-        display: none;
-    }
+  .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 16px;
+    padding-left: 0;
+  }
 
-    .mobile-menu-icon {
-        display: block;
-    }
+  .mobile-menu .nav-item {
+    display: block;
+    padding-top: 19px;
+  }
 
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
+  .open {
+    display: block;
+  }
 
-    }
+  .div-one {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        padding-bottom: 16px;
-        padding-left: 0;
-    }
+  .div-info {
+    width: auto;
+    padding: 10px;
+  }
 
-    .mobile-menu .nav-item {
-        display: block;
-        padding-top: 19px;
-    }
+  .milena-foto {
+    justify-content: center;
+    width: auto;
+    padding-bottom: 10px;
+  }
 
-    .open {
-        display: block;
-    }
+  .milena-rindo {
+    width: 50%;
+  }
 
-    .div-one {
-        flex-direction: column;
-        align-items: center;
+  .container-dois {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .gerenciamento {
+    width: 90%;
+    margin-bottom: 20px;
+  }
 
-    }
+  .gerenciamento-dois {
+    width: 90%;
+    margin-bottom: 20px;
+  }
 
-    .div-info {
-        width: auto;
-        padding: 10px;
+  .gerenciamento-tres {
+    width: 90%;
+    margin-bottom: 20px;
+  }
 
-    }
-
-    .milena-foto{
-        justify-content: center;
-        width: auto;
-        padding-bottom: 10px;
-    }
-
-    .milena-rindo{
-        width: 50%;
-    }
-
-    .container-dois {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .gerenciamento {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .gerenciamento-dois {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .gerenciamento-tres {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .redes-h1{
-        letter-spacing: inherit;
-        word-spacing: inherit;
-        text-align: left;
-        padding: 0;
-    }
-    .sobre-info{
-        text-align: left;
-    }
-
+  .redes-h1 {
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    text-align: left;
+    padding: 0;
+  }
+  .sobre-info {
+    text-align: left;
+  }
 }
-
